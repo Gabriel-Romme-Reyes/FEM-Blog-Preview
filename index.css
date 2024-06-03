@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif
+}
+
+
+
+.content{
+    max-width: 384px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 0.5rem 0.5rem black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content:hover{
+    box-shadow: 1rem 1rem black;
+}
+
+.content-article , .name{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+span{
+    background-color: hsl(47, 88%, 63%);
+    padding: 0.3rem 0.8rem;
+    border-radius: 0.2rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+
+}
+h1{
+    margin-bottom: 1rem;
+    font-weight: 800;
+}
+
+h1:hover{
+    cursor: pointer;
+    color: hsl(47, 88%, 63%);
+}
+
+p{
+    font-size: 16px;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+p:last-child{
+    color: hsl(0, 0%, 50%);
+}
+
+svg{
+    margin: 2rem auto;
+    border-radius: 1rem;
+    max-height: 200px;
+
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0px;
+    font-weight: 800;
+}
+
+.name img{
+    max-height: 32px;
+    max-width: 32px;
+    margin-right: 1rem;
+}
+
